@@ -13,7 +13,7 @@ var app = express();
 
 // connect to database
 mongoose.Promise = Promise;
-mongoose.connect('mongodb://localhost/database-name', {
+mongoose.connect('mongodb://localhost/express-file-upload', {
   keepAlive: true,
   reconnectTries: Number.MAX_VALUE
 });
